@@ -1,0 +1,58 @@
+{
+  "name": "dsh-deepseek-cost-kd",
+  "version": "0.15.0-kd.1",
+  "description": "康康教授研究室改版：DSH 侧边栏显示当前提供商余额／订阅用量、当日累计消费、当前模型档单价与峰谷倒计时。基于 @dougen/dsh-deepseek-usage 0.15.0（MIT）改版，独立成包，不随原作者更新而变。",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "author": "康康教授研究室（康迪宝起草）",
+  "contributors": [
+    "dougen（原作者，@dougen/dsh-deepseek-usage 0.15.0，MIT）"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nononomatter/dsh-deepseek-cost-kd.git"
+  },
+  "homepage": "https://github.com/nononomatter/dsh-deepseek-cost-kd#readme",
+  "bugs": {
+    "url": "https://github.com/nononomatter/dsh-deepseek-cost-kd/issues"
+  },
+  "files": [
+    "lib",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-credentials": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-rc.2",
+    "@deepseek-ai/dsh-host-webserver": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-rc.2"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "plugin",
+    "usage",
+    "balance",
+    "daily-spend",
+    "web"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

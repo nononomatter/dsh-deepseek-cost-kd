@@ -1,0 +1,26 @@
+MIT License
+
+Copyright (c) dougen — original work: @dougen/dsh-deepseek-usage (MIT, declared in that package's package.json)
+Copyright (c) 2026 康康教授研究室 — modifications: dsh-deepseek-cost-kd
+
+本包是 @dougen/dsh-deepseek-usage 0.15.0 的派生作品。原包以 MIT 许可发布
+（见其 package.json 的 "license": "MIT"），但未随包附许可文本；按 MIT 的条款，
+本文件照录标准 MIT 文本并保留原作者的版权声明。改动部分的版权归康康教授研究室。
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

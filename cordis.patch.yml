@@ -1,0 +1,7 @@
+# dsh-deepseek-cost-kd — 康康教授研究室的用量侧边栏插件（独立包）。
+# 基于 @dougen/dsh-deepseek-usage 0.15.0（MIT）改版：包名、路由、槽位 id 全部独立，
+# 与原插件可并存，原插件升级不会覆盖这里。
+# Host 半注册 GET /api/kd-deepseek-cost；包声明 dsh.client 提供浏览器侧边栏卡片。
+- insert:
+    - id: deepseek-cost-kd
+      name: 'dsh-deepseek-cost-kd'

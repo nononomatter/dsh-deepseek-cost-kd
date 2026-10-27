@@ -1,0 +1,21 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- dsh-deepseek-usage：余额 ¥ 硬币 + 峰谷指示灯。
+       硬币与 ¥ 就是卡片上放大的余额，右上角的绿色圆点是卡片右上角的峰谷指示灯
+       （绿=空闲、橙=高峰），这两样正是卡片显示的全部内容。 -->
+  <defs>
+    <linearGradient id="coin" x1="7" y1="9" x2="27" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69B9FF"/>
+      <stop offset="1" stop-color="#324DE2"/>
+    </linearGradient>
+    <linearGradient id="idle" x1="25.6" y1="4.8" x2="31.4" y2="10.6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FE39B"/>
+      <stop offset="1" stop-color="#1F9E52"/>
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="19.6" r="10" stroke="url(#coin)" stroke-width="2.1"/>
+  <path d="M12.6 14.4 16 18.2 19.4 14.4" stroke="url(#coin)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 18.2V25.2" stroke="url(#coin)" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M12.9 20.4H19.1" stroke="url(#coin)" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M12.9 23.2H19.1" stroke="url(#coin)" stroke-width="2.1" stroke-linecap="round"/>
+  <circle cx="28.5" cy="7.7" r="3.1" fill="url(#idle)"/>
+</svg>
